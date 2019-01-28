@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SaleryOrgenizer">
+
+    <FrameLayout
+        android:id="@+id/payment_per_hour"
+        android:layout_width="match_parent"
+        android:layout_height="63dp">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:text="date"
+            android:textAlignment="center"
+            android:textSize="28dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/Salery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="per hour pay"
+            android:inputType="numberDecimal" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/work_hour"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/calculateovertime"
+            android:layout_width="127dp"
+            android:layout_height="57dp"
+            android:layout_gravity="bottom"
+            android:text="result"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/overall"
+            android:layout_width="103dp"
+            android:layout_height="69dp"
+            android:layout_gravity="left"
+            android:layout_marginRight="10dp"
+            android:text="calculate" />
+
+        <Button
+            android:id="@+id/end_shift"
+            android:layout_width="115dp"
+            android:layout_height="69dp"
+            android:layout_gravity="top|center"
+            android:layout_marginRight="10dp"
+            android:ems="10"
+            android:onClick="showTimePickerDialogend"
+            android:text="end shift" />
+
+        <Button
+            android:id="@+id/start_shift"
+            android:layout_width="103dp"
+            android:layout_height="69dp"
+            android:layout_gravity="right"
+            android:ems="10"
+            android:onClick="showTimePickerDialogstart"
+            android:text="start shift" />
+
+        <TextView
+            android:id="@+id/calculate"
+            android:layout_width="127dp"
+            android:layout_height="57dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:text="result"
+            android:textSize="24sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/overtime"
+        android:layout_width="match_parent"
+        android:layout_height="85dp">
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CheckBox" />
+
+        <TextView
+            android:id="@+id/decimalCal"
+            android:layout_width="93dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:text="TextView" />
+    </FrameLayout>
+
+</LinearLayout>

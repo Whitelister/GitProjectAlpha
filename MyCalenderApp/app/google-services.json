@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1081869162178",
+    "firebase_url": "https://calender-588d7.firebaseio.com",
+    "project_id": "calender-588d7",
+    "storage_bucket": "calender-588d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081869162178:android:3323cb27e2f48ae5",
+        "android_client_info": {
+          "package_name": "com.example.ilang_000.mycalenderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081869162178-sm661m5ra5i419sjvkqeim8v0mnr1bg0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4NP0hwnsujkHuirtcCvNu_bnoOGxEKh8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
